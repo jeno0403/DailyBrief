@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import { ProxyAgent } from "undici";
 import { classifyError, logLlmCall } from "../log";
 import type { LlmRunOptions, LlmRunResult } from "../llm";
 
@@ -43,6 +44,16 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
 };
 
 const clientCache = new Map<string, OpenAI>();
+const proxyAgentCache = new Map<string, ProxyAgent>();
+
+function getProxyAgent(proxyUrl: string): ProxyAgent {
+  let agent = proxyAgentCache.get(proxyUrl);
+  if (!agent) {
+    agent = new ProxyAgent(proxyUrl);
+    proxyAgentCache.set(proxyUrl, agent);
+  }
+  return agent;
+}
 
 function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
   // Provider-specific env wins; LLM_API_KEY / LLM_BASE_URL are generic
@@ -59,11 +70,18 @@ function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
     || process.env.LLM_BASE_URL?.trim()
     || cfg.defaultBaseUrl;
   const model = process.env.LLM_MODEL?.trim() || cfg.defaultModel;
+  const proxyUrl = process.env.LLM_PROXY_URL?.trim();
 
-  const cacheKey = `${baseURL}::${apiKey.slice(-6)}`;
+  const cacheKey = `${baseURL}::${apiKey.slice(-6)}::${proxyUrl ?? "direct"}`;
   let client = clientCache.get(cacheKey);
   if (!client) {
-    client = new OpenAI({ apiKey, baseURL });
+    client = new OpenAI({
+      apiKey,
+      baseURL,
+      ...(proxyUrl
+        ? { fetchOptions: { dispatcher: getProxyAgent(proxyUrl) as never } }
+        : {}),
+    });
     clientCache.set(cacheKey, client);
   }
   return { client, model };
