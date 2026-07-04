@@ -193,6 +193,63 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
   };
 }
 
+function articleToBrief(a: ArticleInput, importance: number): BriefItem {
+  const summary = (a.summary || a.excerpt || a.title).trim();
+  return {
+    title: a.title,
+    url: a.url,
+    source: a.source,
+    summary:
+      summary.length > 220 ? `${summary.slice(0, 217).trimEnd()}...` : summary,
+    importance,
+  };
+}
+
+function buildFallbackReport(compact: ArticleInput[]): DailyReport {
+  const byCategory: Record<Category, ArticleInput[]> = {
+    tech: [],
+    finance: [],
+    politics: [],
+  };
+  for (const a of compact) byCategory[a.category].push(a);
+
+  const pick = (category: Category, limit: number) =>
+    byCategory[category].slice(0, limit).map((a, i) => articleToBrief(a, 8 - i));
+
+  const top = compact[0];
+  const techCount = byCategory.tech.length;
+  const financeCount = byCategory.finance.length;
+  const politicsCount = byCategory.politics.length;
+
+  if (REPORT_LOCALE === "en") {
+    return {
+      hero_headline: top?.title ?? "Daily Brief",
+      daily_overview:
+        `Today's report was generated with a deterministic fallback because the LLM digest step did not return a usable response. ` +
+        `The source fetch succeeded, so this page still preserves the latest candidate items across tech (${techCount}), finance (${financeCount}), and politics (${politicsCount}).`,
+      tech_briefs: pick("tech", 5),
+      finance_briefs: pick("finance", 5),
+      politics_briefs: pick("politics", 3),
+      editor_note:
+        "Fallback mode keeps the daily archive fresh while the upstream model or API recovers.",
+      keywords: ["fallback", "daily brief", "sources", "archive", "LLM"],
+    };
+  }
+
+  return {
+    hero_headline: top?.title ?? "今日简报",
+    daily_overview:
+      `本次报告因 LLM 摘要步骤未返回可用结果，已启用确定性兜底生成。` +
+      `新闻源抓取成功，因此页面仍保留今日候选内容：科技 ${techCount} 条、财经 ${financeCount} 条、时政 ${politicsCount} 条。`,
+    tech_briefs: pick("tech", 5),
+    finance_briefs: pick("finance", 5),
+    politics_briefs: pick("politics", 3),
+    editor_note:
+      "兜底模式用于应对上游模型或 API 的临时失败，保证每日归档不断更。",
+    keywords: ["兜底", "每日简报", "新闻源", "归档", "LLM"],
+  };
+}
+
 export async function generateDailyReport(
   articles: ArticleInput[],
 ): Promise<{ report: DailyReport; tokensUsed: number }> {
@@ -222,14 +279,23 @@ export async function generateDailyReport(
   try {
     report = await callOnce(userPayloadJson);
   } catch (firstErr) {
-    // One retry — claude CLI occasionally wraps in narration on the first
-    // pass but obeys when the same prompt is repeated.
+    // One retry — LLMs occasionally wrap JSON in narration on the first
+    // pass but obey when the same prompt is repeated.
     console.warn(
-      `[pipeline] first claude CLI call failed, retrying: ${
+      `[pipeline] first LLM digest call failed, retrying: ${
         firstErr instanceof Error ? firstErr.message : String(firstErr)
       }`,
     );
-    report = await callOnce(userPayloadJson);
+    try {
+      report = await callOnce(userPayloadJson);
+    } catch (secondErr) {
+      console.warn(
+        `[pipeline] second LLM call failed; using deterministic fallback report: ${
+          secondErr instanceof Error ? secondErr.message : String(secondErr)
+        }`,
+      );
+      report = buildFallbackReport(compact);
+    }
   }
 
   // Max subscription has no per-call token meter — we expose 0 for schema
