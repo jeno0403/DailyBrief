@@ -1,100 +1,115 @@
 {
-  "hero_headline": "美军对伊发起报复空袭；月之暗面发布Kimi K3",
-  "daily_overview": "今日全球局势风云变幻。科技领域，月之暗面发布2.8万亿参数开源模型Kimi K3，与OpenAI的GPT-Red共同推高了AI竞赛与安全的双重阈值。财经方面，韩国放宽外汇限制力图走向国际化，而美联储新班子正面临如何缩减7万亿资产负债表的艰巨任务。地缘政治上，美军在约旦士兵遇袭后对伊朗实施报复性空袭，加剧了中东战火；同时欧洲德法首脑释放强硬信号，呼吁中国放开汇率并遏制「扭曲竞争」。",
+  "hero_headline": "美军大举空袭报复基地遇袭，中东紧张局势骤然升级",
+  "daily_overview": "今日地缘政治与科技领域波动剧烈。政治上，由于两名美军士兵在约旦遇袭身亡，美军周日对中东相关目标发起多轮报复性空袭，中东局势骤然升级；德国总理则在欧洲会议上强硬表态，呼吁中国放开人民币汇率。科技方面，中国创企月之暗面发布巨量开源模型 Kimi K3，直逼全球最前沿；OpenAI 则推出评估卡量化 AI 的投资回报。金融市场上，受地缘局势影响英国油价再度上涨，刚上市的 SpaceX 遭遇交易员大举做空，而韩国股市则凭借强劲的 AI 产业链主导全球投资风向。",
   "tech_briefs": [
     {
       "title": "月之暗面发布开源大模型Kimi K3",
       "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
       "source": "Latent Space",
-      "summary": "中国AI创企月之暗面推出开源大模型Kimi K3，参数量达2.8万亿，支持100万Token上下文。该模型在代码和长文本处理上表现强劲，可媲美美国顶尖闭源模型。（多家报道）",
+      "summary": "月之暗面推出 Kimi K3 模型，参数达 2.8 万亿，支持百万级上下文。该开源大模型在代码及长周期任务上性能优异，直逼全球最前沿水准。（多家报道）",
       "importance": 9
     },
     {
-      "title": "OpenAI开发红队黑客模型GPT-Red",
+      "title": "OpenAI推出安全测试模型GPT-Red",
       "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
       "source": "MIT Tech Review AI",
-      "summary": "OpenAI开发了名为 GPT-Red 的黑客大语言模型。作为安全防御的虚拟对抗伙伴，该模型通过模拟网络安全攻击，帮助其他大模型修补潜在防御漏洞。（多家报道）",
+      "summary": "OpenAI 研发了名为 GPT-Red 的黑客大模型，作为安全演练的 “陪练”，通过模拟网络攻击来协助防御并测试其他模型，以提升其安全防护能力。",
       "importance": 8
     },
     {
-      "title": "语义元数据规范开源项目Ossie",
+      "title": "开源语义元数据规范项目Ossie",
       "url": "https://github.com/apache/ossie",
       "source": "GitHub Trending",
-      "summary": "Apache Ossie 是一项推行行业标准的规范工作。它致力于标准化分析、AI和商业智能平台之间的语义元数据交换，为企业提供跨平台的、厂商中立的数据一致性源头，解决了各数据平台元数据不兼容、难以互通的痛点。",
+      "summary": "Apache Ossie 是一个旨在标准化跨分析、人工智能和商业智能平台之间语义元数据交换的开源规范项目。它通过提供与供应商无关的单一真理源，解决定义冲突痛点。",
       "importance": 7
     },
     {
-      "title": "OpenAI推出衡量AI投资回报评估表",
+      "title": "OpenAI推出AI投资回报率评估卡",
       "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
       "source": "OpenAI News",
-      "summary": "OpenAI首席财务官推出了一套实用的AI评估表，通过工作成效、任务单次成本、可靠性和算力回报等指标，帮助企业量化AI技术的实际投资回报率。",
+      "summary": "OpenAI 首席财务官提出了一套实用的 AI 评估卡，通过工作成效、单次任务成本、可靠性及算力回报率等维度，帮助企业量化衡量 AI 投资的实际回报。",
       "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "韩国推动韩元自由交易与外汇自由化",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-19/south-korea-to-ease-fx-rules-for-foreigners-to-trade-won-easier",
-      "source": "Bloomberg Markets",
-      "summary": "韩国出台详细计划允许外籍投资者更自由地交易韩元，迈出外汇市场自由化的关键一步。同时，韩国以AI为主导的股市正成为全球基金经理每日必看的气象哨。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "交易员在SpaceX上市后加大做空力度",
+      "title": "交易员增加SpaceX做空筹码",
       "url": "https://www.ft.com/content/2b96703d-440b-46db-8d86-9fff9ecc59d5?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "埃隆·马斯克旗下的火箭与AI公司SpaceX首次公开募股仅数周后，其股价便首次跌破发行价，导致交易员正加速建立针对该公司的做空头寸。",
+      "summary": "在马斯克的航天与 AI 公司 SpaceX 上市仅数周后，交易员纷纷加大做空力度。目前该公司股价已首次跌破其首次公开募股（IPO）发行价。",
       "importance": 8
     },
     {
-      "title": "美联储新主席面临缩表与重塑政策挑战",
-      "url": "https://www.economist.com/finance-and-economics/2026/07/16/how-to-shrink-the-feds-7trn-balance-sheet",
-      "source": "The Economist Finance",
-      "summary": "美联储新任主席凯文·沃什组建了由多位重磅人物构成的团队，以应对缩减高达7万亿美元资产负债表以及重塑货币政策等棘手难题。（多家报道）",
+      "title": "韩国放宽外汇限制以促进韩元交易",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/south-korea-to-ease-fx-rules-for-foreigners-to-trade-won-easier",
+      "source": "Bloomberg Markets",
+      "summary": "韩国政府出台详细计划，允许外国投资者更自由地交易韩元。这是该国推动韩元实现自由兑换并自由化外汇市场的重要举措。",
       "importance": 7
     },
     {
-      "title": "中国批评英国国有化英国钢铁公司",
-      "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
+      "title": "韩国AI概念股主导全球股市风向",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/korea-s-ai-heavy-market-now-sets-the-tone-for-global-stocks",
+      "source": "Bloomberg Markets",
+      "summary": "随着人工智能热潮高涨，韩国重仓 AI 产业链的股市正逐渐成为伦敦、纽约及东京等全球基金经理开盘前关注的重点，主导全球股市情绪。",
+      "importance": 8
+    },
+    {
+      "title": "中东局势紧张致英国油价再度上涨",
+      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "英国政府宣布将具有「国家关键能力」的英国钢铁收归公有。这一干预市场竞争的重大举措引发了中方的强烈批评。",
+      "summary": "随着美以同伊朗冲突和谈破裂，英国国内燃油价格再度上涨。这一走势加剧了市场对于霍尔木兹海峡局势及全球能源危机的担忧。",
       "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美军对伊朗目标发动多轮报复性空袭",
+      "title": "美军空袭报复约旦基地袭击",
       "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
       "source": "NYT World",
-      "summary": "针对两名美军士兵在约旦遭袭击身亡事件，美军于周日凌晨对伊朗目标展开了报复性空袭。美伊两国的直接对抗导致中东局势急剧恶化。（多家报道）",
-      "importance": 9
+      "summary": "约旦一空袭基地遭遇导弹袭击导致两名美军士兵丧生，此为四月停火以来首例美军敌火伤亡。美军随即于周日对伊朗相关目标发动了多轮报复性空袭。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "德国总理呼吁中国放开人民币汇率",
+      "url": "https://www.dw.com/zh/默茨呼吁中国放开人民币汇率：不会再容忍扭曲竞争/a-78019738?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "德国总理默茨在法德部长会议上呼吁中国政府放开人民币汇率。他与法国总统马克龙强调，将不会容忍损害欧洲产业和就业的扭曲性竞争。",
+      "importance": 8
     }
   ],
-  "editor_note": "",
-  "keywords": [],
+  "editor_note": "中东局势突变与 AI 技术跃升交织，地缘冲突对供应链的冲击正波及全球实体经济，科技与资本的深度捆绑愈发紧密。",
+  "keywords": [
+    "美军空袭",
+    "中东局势",
+    "Kimi K3",
+    "SpaceX",
+    "人民币汇率",
+    "AI投资回报率",
+    "韩国股市"
+  ],
   "trading": {
-    "market_overview": "本期全球大类资产呈现分化态势。美股市场整体震荡，SPY 跌 0.99% 且 MACD 出现死叉，QQQ 5日累计下跌 4.16%，科技股内部出现明显分化。中概股整体承压，阿里巴巴与拼多多均呈现空头排列，单日跌幅超 2%。加密市场在低位寻求支撑，当前加密恐慌贪婪指数为 28（处于恐慌状态），全球加密总市值达 2.29T 美元（24小时微涨 0.79%），BTC 主导率为 56.5%，ETH 占比 9.8%，BTC 与 ETH 1日均有小幅反弹并重回 20日均线之上。商品与外汇方面，黄金期货技术形态仍为空头排列，而 WTI 原油 5日大涨 14.52%；美元指数与10年期美债收益率维持多头排列。此外，VIX 恐慌指数单日飙升 12.19% 并触发 MACD 金叉，提示市场短期避险情绪明显升温。",
+    "market_overview": "当前全球市场技术面呈现分化特征。美股大盘短期承压，SPY与QQQ分别5日下跌1.54%和4.16%，其中SPY触发MACD死叉，RSI回落至48.4，但个股如AAPL仍维持超买强势。加密货币市场总市值为2.30T USD（24小时涨1%），BTC主导率达56.5%，ETH为9.8%，尽管BTC与ETH短期小幅反弹（5日涨幅超3%），但加密恐慌贪婪指数仅28，技术上整体仍处于中性筑底阶段。中概股多数走弱，BABA和PDD呈空头排列，JD在RSI 64.7支撑下相对偏强。商品外汇方面，WTI原油（CL=F）展现强劲动量，5日暴涨14.52%，均线系统向上重构；相比之下，黄金期货（GC=F）形态偏弱，价格4018.8承压于均线下方。总体看，市场避险情绪有所升温，VIX指数5日飙升24.88%，触发MACD金叉。",
     "watchlist": [
       {
         "symbol": "AAPL",
         "display_name": "苹果 (AAPL)",
         "stance": "偏上行",
-        "rationale": "苹果当前价格为 333.74 元，5日累计上涨 5.84%。均线系统呈现典型多头排列，价格运行于 SMA20（305.52）、SMA50（302.65）及 SMA200（274.22）之上。其 MACD 读数 8.8154 显著高于信号线 5.4783，展现出强劲的上行动能；14日 RSI 达到 71.6 进入超买状态，且价格逼近 52 周高点，短期走势偏强。"
+        "rationale": "「苹果 (AAPL)」当前价333.74，5日上涨5.84%，RSI14达71.6进入超买区。技术形态呈多头排列，SMA20 (305.52) 高于 SMA50 (302.65) 与 SMA200 (274.22)，且MACD (8.8154) 显著高于信号线 (5.4783)，整体技术面呈现偏上行特征，向上动量强劲。"
       },
       {
         "symbol": "TSLA",
         "display_name": "特斯拉 (TSLA)",
         "stance": "偏下行",
-        "rationale": "特斯拉最新价格收报 380.84 元，单日下跌 2.61%，5日累计跌幅达 6.6%。目前价格已连续跌破 SMA20（397.85）、SMA50（409.80）及 SMA200（417.05），呈现空头排列。MACD 处于死叉状态，读数为 -3.6456 且低于信号线 -1.975，14日 RSI 降至 42.6，下行趋势较为明显。"
+        "rationale": "「特斯拉 (TSLA)」当前价380.84，5日下跌6.60%，价格已低于SMA20 (397.85) 与SMA50 (409.80) 均线，技术形态呈空头排列。MACD指标出现死叉 (MACD -3.6456低于信号线 -1.9750)，RSI14为42.6，整体技术状态明显偏下行。"
       },
       {
         "symbol": "BTC-USD",
         "display_name": "比特币 (BTC-USD)",
         "stance": "中性",
-        "rationale": "比特币目前报价 64641.31 美元，1日微涨 1.16%，5日累计反弹 3.86%。价格目前重回 SMA20（62901.74）和 SMA50（63534.14）上方，但依然承压于 SMA200（73157.95）这一长期均线。14日 RSI 读数为 54.7，处于中性常态区间，MACD 虽处于多头区域但尚未形成显著的单边突破，整体形态偏向震荡整理。"
+        "rationale": "「比特币 (BTC-USD)」当前价64668.02，5日上涨3.90%。目前价格处于SMA20 (62903.08) 之上，但仍低于长期均线SMA200 (73158.08)，RSI14处于54.8的中性区间。MACD (177.7874) 高于信号线，整体技术面处于多空拉锯的中性震荡态势。"
       }
     ],
-    "risk_caveat": "本报告内容仅基于公开行情数据及客观技术指标计算所得，不构成任何投资建议。过去走势不代表未来表现，相关分析仅供技术指标解读参考，投资者应自主评估市场风险。",
+    "risk_caveat": "本报告基于历史公开行情数据计算之技术指标进行客观解读，过去走势不代表未来表现。所有分析结论均不构成任何投资建议，仅供技术指标解读参考，投资者应自主决策。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -322,18 +337,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64641.31,
-        "pct1Day": 1.1609629433738096,
-        "pct5Day": 3.8596125138586244,
-        "pct52WeekHigh": -48.77789335447048,
-        "pct52WeekLow": 11.93733451091423,
-        "sma20": 62901.7431640625,
-        "sma50": 63534.138125,
-        "sma200": 73157.94927734375,
-        "rsi14": 54.67034709691925,
-        "macd": 175.65660138284147,
-        "macdSignal": -161.11780925149486,
-        "macdHistogram": 336.77441063433633,
+        "currentPrice": 64668.02,
+        "pct1Day": 1.202762983011271,
+        "pct5Day": 3.902527644295261,
+        "pct52WeekHigh": -48.75672821303845,
+        "pct52WeekLow": 11.98358738241059,
+        "sma20": 62903.0787109375,
+        "sma50": 63534.67234375,
+        "sma200": 73158.08283203124,
+        "rsi14": 54.7691602587684,
+        "macd": 177.78738841987797,
+        "macdSignal": -160.69165184408757,
+        "macdHistogram": 338.47904026396554,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -344,18 +359,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1864.92,
-        "pct1Day": 1.2999453962254808,
-        "pct5Day": 5.154735259301744,
-        "pct52WeekHigh": -62.35323946607538,
-        "pct52WeekLow": 23.791101487369094,
-        "sma20": 1769.8665832519532,
-        "sma50": 1737.6506665039062,
-        "sma200": 2189.1379193115235,
-        "rsi14": 59.010990046989136,
-        "macd": 37.38269533871494,
-        "macdSignal": 22.12836295412441,
-        "macdHistogram": 15.25433238459053,
+        "currentPrice": 1865.56,
+        "pct1Day": 1.334709335189925,
+        "pct5Day": 5.190822078342743,
+        "pct52WeekHigh": -62.34031991631361,
+        "pct52WeekLow": 23.83358390213857,
+        "sma20": 1769.898583984375,
+        "sma50": 1737.663466796875,
+        "sma200": 2189.1411193847657,
+        "rsi14": 59.064622311464845,
+        "macd": 37.43375063830513,
+        "macdSignal": 22.138574014042447,
+        "macdHistogram": 15.29517662426268,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -491,13 +506,13 @@
         "pct5Day": -2.0784117255074404,
         "pct52WeekHigh": -28.058429701765057,
         "pct52WeekLow": 23.12877232758357,
-        "sma20": 4078.400012207031,
-        "sma50": 4317.953994140625,
-        "sma200": 4473.447989501953,
-        "rsi14": 40.114437378464245,
-        "macd": -78.82836129446514,
-        "macdSignal": -85.06794582484729,
-        "macdHistogram": 6.239584530382146,
+        "sma20": 4078.7050170898438,
+        "sma50": 4318.07599609375,
+        "sma200": 4473.478489990234,
+        "rsi14": 40.61003830739802,
+        "macd": -78.34174380199693,
+        "macdSignal": -84.97062230651098,
+        "macdHistogram": 6.628878504514049,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -518,13 +533,13 @@
         "pct5Day": 14.5217697886676,
         "pct52WeekHigh": -31.55339805825243,
         "pct52WeekLow": 48.744998181156795,
-        "sma20": 73.40799980163574,
-        "sma50": 85.38059982299805,
-        "sma200": 74.59564989089967,
-        "rsi14": 58.275746429752274,
-        "macd": -1.3285901775405904,
-        "macdSignal": -3.4207564192948787,
-        "macdHistogram": 2.0921662417542883,
+        "sma20": 73.37249984741212,
+        "sma50": 85.36639984130859,
+        "sma200": 74.59209989547729,
+        "rsi14": 57.204889746949185,
+        "macd": -1.3852282789976869,
+        "macdSignal": -3.4320840368576206,
+        "macdHistogram": 2.046855757859934,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -638,10 +653,10 @@
         "sma20": 101.06900062561036,
         "sma50": 99.9352001953125,
         "sma200": 99.01050018310546,
-        "rsi14": 52.05028573070855,
-        "macd": 0.21518582434815414,
-        "macdSignal": 0.3360259339430168,
-        "macdHistogram": -0.12084010959486263,
+        "rsi14": 52.05028601409698,
+        "macd": 0.2151858246996028,
+        "macdSignal": 0.3360259344598472,
+        "macdHistogram": -0.1208401097602444,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -663,13 +678,13 @@
       "timestamp": "2026-07-19T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2293109965174.345,
-      "total24hVolumeUsd": 38140471160.82798,
-      "marketCapChangePct24h": 0.7864586028607999,
-      "btcDominance": 56.52515026271604,
-      "ethDominance": 9.812108964093339,
+      "totalMarketCapUsd": 2295979908021.588,
+      "total24hVolumeUsd": 37877175060.171455,
+      "marketCapChangePct24h": 1.0002279971561192,
+      "btcDominance": 56.53947995865705,
+      "ethDominance": 9.818332965553944,
       "activeCryptocurrencies": 17645
     },
-    "generated_at": "2026-07-19T03:43:26.333Z"
+    "generated_at": "2026-07-19T04:56:54.082Z"
   }
 }
