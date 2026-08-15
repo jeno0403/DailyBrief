@@ -1,121 +1,42 @@
 {
-  "hero_headline": "科技巨头闪电升级，大国科技与外交博弈加剧",
-  "daily_overview": "今日全球资讯聚焦大国博弈与科技爆发。科技领域迎来算力与模型双重升级，谷歌发布 Gemini 3.7 Flash、OpenAI 预览极速层 GPT-5.6 Sol、xAI 推出 Grok 4.6，三大巨头战火重燃。财经界，英伟达披露对 SpaceX 百亿美元重磅投资，而简街资本因 AI 回调遭遇百亿亏损。时政方面，特朗普拟宣布霍尔木兹海峡为美领土引发外交震荡，同时苹果与阿里合作特训中文大模型以适应监管，突显跨国巨头在本土化上的妥协与博弈。",
+  "hero_headline": "科技巨头AI模型大迭代，英伟达披露持股航天巨头",
+  "daily_overview": "今日全球科技与财经领域迎来密集调整。大模型竞争进入新阶段，谷歌火速推出Gemini 3.7 Flash，OpenAI则与芯片初创公司合作上线GPT-5.6超快模式。财经方面，英伟达披露其持有SpaceX高达210亿美元的巨额股份，而日本干预汇市引发日元套利交易平仓，全球流动性面临重构。地缘政治上，特朗普涉霍尔木兹海峡的惊人言论引发热议，苹果则通过与阿里合作训练中文大模型以积极应对中国市场合规要求。",
   "tech_briefs": [
     {
-      "title": "谷歌发布 Gemini 3.7 Flash 极速模型",
+      "title": "谷歌快速发布Gemini 3.7 Flash模型",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "source": "DeepMind Blog",
-      "summary": "谷歌快速推出 Gemini 3.7 Flash，主打编程、网页开发及智能体工作流，并提供半价优惠，迅速提振其在开发者市场的竞争力。（多家报道）",
+      "summary": "谷歌在前代版本发布仅三周后，迅速推出Gemini 3.7 Flash模型，主打编程、网页开发及智能体工作流，并提供五折优惠。（多家报道）",
       "importance": 9
-    },
-    {
-      "title": "OpenAI 推出 GPT-5.6 极速模式",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI News",
-      "summary": "OpenAI 预览全新 API 极速层 GPT-5.6 Sol，速度提升达 14 倍，由 Cerebras 提供算力，每秒输出达 750 个 Token。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "xAI 推出 Grok 4.6 推进智能体表现",
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "source": "Latent Space",
-      "summary": "埃隆•马斯克的 xAI 推出 Grok 4.6，在智能体协同和逻辑推理测试中表现强劲，而 Grok 4.7 已在训练中。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "纯 HTML 与 SVG 的图表设计规范发布",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "source": "GitHub Trending",
-      "summary": "该项目提供 29 种纯 HTML 和 SVG 格式的自包含图表。它不依赖复杂渲染工具，能为 Claude Code 提供无阴影的简洁图表，极大降低了开发者在 AI 环境下的画图排版门槛。",
-      "importance": 7
     }
   ],
-  "finance_briefs": [
-    {
-      "title": "英伟达披露持有百亿美元航天投资",
-      "url": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "监管文件披露，英伟达持有 SpaceX 价值 210 亿美元的股份。此举发生于马斯克宣布独家使用英伟达芯片装备其数据中心之后。",
-      "importance": 9
-    },
-    {
-      "title": "简街资本因 AI 股暴跌损失百亿美元",
-      "url": "https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "华尔街自营交易巨头简街资本因 7 月份人工智能概念股大幅回调和模型失误，遭受了 150 亿美元的罕见交易损失。",
-      "importance": 8
-    },
-    {
-      "title": "印度计划建设更多芯片厂与核反应堆",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/modi-vows-chip-plants-nuclear-reactors-in-india-growth-push",
-      "source": "Bloomberg Markets",
-      "summary": "印度总理莫迪誓言将建造更多半导体制造厂并扩大核反应堆群，重申其将印度提升为发达国家的增长决心。",
-      "importance": 8
-    },
-    {
-      "title": "特朗普家族加密企业获颁银行牌照",
-      "url": "https://www.ft.com/content/ace83fb4-a0cd-405a-a2c6-f6499a83e983?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "美国政府向特朗普家族的加密货币创企颁发了银行牌照，这使得现任总统在任期间的商业利益再度成为政治争议焦点。",
-      "importance": 8
-    }
-  ],
-  "politics_briefs": [
-    {
-      "title": "特朗普拟宣布霍尔木兹海峡为美领土",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/us-president-trump-says-he-will-declare-strait-of-hormuz-us-territory?traffic_source=rss",
-      "source": "Al Jazeera",
-      "summary": "美国总统特朗普宣称，他将在近期宣布中东战略要道霍尔木兹海峡为美国领土，此举引发国际舆论高度关注。",
-      "importance": 9
-    },
-    {
-      "title": "苹果为满足中国监管特训中文大模型",
-      "url": "https://www.dw.com/zh/满足中国监管，苹果特训大语言模型/a-78368633?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "苹果公司正与阿里巴巴合作，专门训练符合中国严格监管标准的中文大语言模型，以期维持其在中国智能手机市场的份额。",
-      "importance": 8
-    },
-    {
-      "title": "德媒关注中国零工经济与反腐局势",
-      "url": "https://www.dw.com/zh/德语媒体：习近平的下一个问题/a-78373446?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "德语媒体聚焦中国高达数亿人规模的“零工经济”就业问题，并关注中国高层反腐运动及外资驻京代表对营商环境的观察。",
-      "importance": 7
-    }
-  ],
-  "editor_note": "科技巨头的模型竞速正向高效率与低成本过渡，而宏观政策和地缘博弈依旧是影响全球市场走势的核心变量。",
-  "keywords": [
-    "人工智能",
-    "英伟达",
-    "特朗普",
-    "霍尔木兹海峡",
-    "零工经济",
-    "大语言模型"
-  ],
+  "finance_briefs": [],
+  "politics_briefs": [],
+  "editor_note": "",
+  "keywords": [],
   "trading": {
-    "market_overview": "全球大类资产呈现分化态势。美股市场整体维持多头格局，SPY 与 QQQ 均接近 52 周高点，均线呈多头排列，但 MSFT 的 RSI 已达 70.9 呈现超买。中概股整体承压，BABA、PDD、JD 等多数标的触发 MACD 死叉，短期趋势偏弱。加密市场情绪低迷，加密恐慌贪婪指数为 34（恐慌），加密总市值为 2.26T 美元，日内微跌 0.11%，BTC 主导率 56.1%，ETH 为 10.1%，主要代币如 BTC 处于均线下方且形成 MACD 死叉。商品外汇方面，黄金动能偏强，原油（CL=F）收涨 1.42% 且形成 MACD 金叉；美元兑人民币（USDCNY=X）处于极度超卖状态（RSI 为 23.1）。债市方面，10年期美债收益率（^TNX）维持在 4.7% 附近的多头区间。",
+    "market_overview": "当前全球市场技术面呈现分化特征。美股市场动能较强，SPY（RSI 65.7）与QQQ多头排列显著，唯MSFT出现RSI 70.9的超买。相比之下，加密市场整体偏弱，加密恐慌贪婪指数录得34（恐慌），总市值收窄至2.25T USD，比特币主导率达56.1%。技术面上，BTC-USD（RSI 42.8）与SOL-USD呈现空头排列并伴随MACD死叉。中概股方面，整体走势转入弱势调整，京东（JD）与腾讯控股（0700.HK）多条均线死叉，动能偏弱。商品与外汇市场中，WTI原油期货（CL=F）受MACD金叉及均线多头支撑走势偏强，而美元/人民币（USDCNY=X）RSI降至28.3步入超卖，美元指数DXY也呈现接近52周低位的疲软态势。",
     "watchlist": [
       {
         "symbol": "CL=F",
         "display_name": "WTI 原油期货",
         "stance": "偏上行",
-        "rationale": "原油收于 82.4，5 日涨幅达 5.4%，均线呈多头排列。MACD 指标形成金叉（MACD 值为 0.3173，信号线为 0.2），且 14 日 RSI 为 52.5，处于偏强多头区间，显示短期技术面有向上突破动能。"
+        "rationale": "WTI原油期货当前价格为82.4，5日涨幅达5.4%。技术面上，MACD数值为0.3173，已向上突破信号线0.2000形成金叉，且均线系统（SMA50为79.55，SMA200为76.84）呈现多头排列。RSI14读数为52.5，处于常态区间，整体动能指标偏向多头。"
       },
       {
         "symbol": "BTC-USD",
         "display_name": "Bitcoin",
         "stance": "偏下行",
-        "rationale": "比特币收于 63034.41，价格低于 20 日、50 日及 200 日均线，呈空头排列。MACD 形成死叉（MACD 值为 -138.4051，信号线为 -4.0362），且 14 日 RSI 降至 43.1，技术面显示短期承压明显。"
+        "rationale": "比特币当前报价62998.46，处于短期与长期均线（SMA20为63945.04，SMA200为69501.7）下方，呈现空头排列。MACD数值为-141.2729，低于信号线-4.6098形成死叉。RSI14读数为42.8，整体下行趋势动能依然显著。"
       },
       {
-        "symbol": "USDCNY=X",
-        "display_name": "美元 / 人民币",
+        "symbol": "BABA",
+        "display_name": "阿里巴巴 (BABA)",
         "stance": "中性",
-        "rationale": "汇率收于 6.73，虽呈空头排列且接近 52 周低点，但 14 日 RSI 降至 23.1 的极度超卖区间。MACD 为 -0.01 且处于信号线下方，极低的 RSI 指示短期下行动能可能衰竭，存在技术性反弹或筑底的整固需求。"
+        "rationale": "阿里巴巴当前价格为123.81，虽在SMA20（121.81）和SMA50（113.76）上方，但承压于长期均线SMA200（138.95）。RSI14读数为55.0，处于中性震荡区间。MACD发生死叉（MACD为3.5202，信号线为3.6811），短期多空力量交织，技术面维持中性态势。"
       }
     ],
-    "risk_caveat": "本报告基于公开历史行情测算，过去走势不代表未来表现。所有技术指标解读仅供技术指标解读参考，不构成任何实质性投资建议，请投资者独立决策。",
+    "risk_caveat": "本报告内容仅供技术指标解读参考，不构成任何投资建议。市场波动受多重因素影响，历史数据及过去走势不代表未来表现，请投资者注意交易风险。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -348,18 +269,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 63034.41,
-        "pct1Day": -0.5800461784259603,
-        "pct5Day": -2.792011537629064,
-        "pct52WeekHigh": -50.05120918251761,
-        "pct52WeekLow": 9.154716045638892,
-        "sma20": 63946.840625,
-        "sma50": 63451.95421875,
-        "sma200": 69501.87515625,
-        "rsi14": 43.062272956624135,
-        "macd": -138.40512980850326,
-        "macdSignal": -4.036246636038413,
-        "macdHistogram": -134.36888317246485,
+        "currentPrice": 62998.46,
+        "pct1Day": -0.6367477060500948,
+        "pct5Day": -2.8474515296147533,
+        "pct52WeekHigh": -50.07969614749259,
+        "pct52WeekLow": 9.092462555174855,
+        "sma20": 63945.0431640625,
+        "sma50": 63451.235234375,
+        "sma200": 69501.69541015624,
+        "rsi14": 42.84739728669148,
+        "macd": -141.27287375436572,
+        "macdSignal": -4.609795425210905,
+        "macdHistogram": -136.6630783291548,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -380,18 +301,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1883.22,
-        "pct1Day": -0.040941430796341896,
-        "pct5Day": -1.3340477562925732,
-        "pct52WeekHigh": -61.9838210900749,
-        "pct52WeekLow": 25.005833034684176,
-        "sma20": 1892.3435180664062,
-        "sma50": 1824.137607421875,
-        "sma200": 2024.0779302978515,
-        "rsi14": 51.471603116903474,
-        "macd": 10.522181821199638,
-        "macdSignal": 16.228619727256596,
-        "macdHistogram": -5.7064379060569586,
+        "currentPrice": 1881.3,
+        "pct1Day": -0.1428527276458222,
+        "pct5Day": -1.4346406919601666,
+        "pct52WeekHigh": -62.0225797393602,
+        "pct52WeekLow": 24.878385790375702,
+        "sma20": 1892.2475219726562,
+        "sma50": 1824.099208984375,
+        "sma200": 2024.0683306884766,
+        "rsi14": 51.12567378444087,
+        "macd": 10.369025660231046,
+        "macdSignal": 16.19798849506288,
+        "macdHistogram": -5.8289628348318345,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -402,18 +323,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 75.57,
-        "pct1Day": -0.7972482737112039,
-        "pct5Day": -0.8425531540023611,
-        "pct52WeekHigh": -70.15519535373618,
-        "pct52WeekLow": 25.085409648509486,
-        "sma20": 74.47912940979003,
-        "sma50": 75.90231704711914,
-        "sma200": 82.29307224273681,
-        "rsi14": 51.95168699397504,
-        "macd": 0.13276093818194568,
-        "macdSignal": -0.15960579545793285,
-        "macdHistogram": 0.29236673363987853,
+        "currentPrice": 75.35,
+        "pct1Day": -1.086048133176381,
+        "pct5Day": -1.131221121530737,
+        "pct52WeekHigh": -70.24207979229881,
+        "pct52WeekLow": 24.721259984321687,
+        "sma20": 74.46812934875489,
+        "sma50": 75.89791702270507,
+        "sma200": 82.2919722366333,
+        "rsi14": 51.067378138103734,
+        "macd": 0.11521098325405887,
+        "macdSignal": -0.1631157864435102,
+        "macdHistogram": 0.2783267696975691,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -554,13 +475,13 @@
         "pct5Day": 2.1033427921627528,
         "pct52WeekHigh": -20.661630446457337,
         "pct52WeekLow": 33.8932358539017,
-        "sma20": 4177.205004882812,
-        "sma50": 4159.04400390625,
-        "sma200": 4486.528489990234,
-        "rsi14": 67.272578887113,
-        "macd": 72.7294113451344,
-        "macdSignal": 32.88654527924359,
-        "macdHistogram": 39.8428660658908,
+        "sma20": 4174.625,
+        "sma50": 4158.012001953125,
+        "sma200": 4486.270489501953,
+        "rsi14": 64.58608267968322,
+        "macd": 68.61316427643305,
+        "macdSignal": 32.06329591350597,
+        "macdHistogram": 36.549868362927086,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -579,10 +500,10 @@
         "sma20": 82.50549964904785,
         "sma50": 79.55119979858398,
         "sma200": 76.8372498512268,
-        "rsi14": 52.489733481497204,
-        "macd": 0.31734167702167326,
-        "macdSignal": 0.2000182877402606,
-        "macdHistogram": 0.11732338928141267,
+        "rsi14": 52.48973352844472,
+        "macd": 0.31734167668466284,
+        "macdSignal": 0.20001828724466225,
+        "macdHistogram": 0.11732338944000059,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -603,18 +524,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.7322,
-        "pct1Day": -0.15720821287411166,
-        "pct5Day": -0.22526910233780914,
-        "pct52WeekHigh": -6.378895548540521,
-        "pct52WeekLow": 0,
-        "sma20": 6.7562849760055546,
-        "sma50": 6.7702099609375,
-        "sma200": 6.887601983547211,
-        "rsi14": 23.13878821573691,
-        "macd": -0.01003626424883386,
-        "macdSignal": -0.00855857833145663,
-        "macdHistogram": -0.0014776859173772292,
+        "currentPrice": 6.7419,
+        "pct1Day": -0.013351066571986096,
+        "pct5Day": -0.08151002065464885,
+        "pct52WeekHigh": -6.244002836918881,
+        "pct52WeekLow": 0.14408365764535347,
+        "sma20": 6.756769967079163,
+        "sma50": 6.770403957366943,
+        "sma200": 6.887650482654571,
+        "rsi14": 28.337473630726294,
+        "macd": -0.00926248931658158,
+        "macdSignal": -0.008403823345006174,
+        "macdHistogram": -0.000858665971575405,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
@@ -670,23 +591,19 @@
         "pct5Day": 0.7725354885554927,
         "pct52WeekHigh": -1.074362755424482,
         "pct52WeekLow": 18.976437800861405,
-        "sma20": 4.660099983215332,
-        "sma50": 4.561039981842041,
-        "sma200": 4.312804989814758,
-        "rsi14": 57.31462961012996,
-        "macd": 0.03328017157247043,
-        "macdSignal": 0.03742500858170916,
-        "macdHistogram": -0.004144837009238733,
-        "trend": "bullish",
+        "sma20": null,
+        "sma50": null,
+        "sma200": null,
+        "rsi14": 49.70492389681811,
+        "macd": null,
+        "macdSignal": null,
+        "macdHistogram": null,
+        "trend": "neutral",
         "rsiState": "normal",
         "signals": [
           {
             "type": "near-52w-high",
             "label": "接近 52 周高"
-          },
-          {
-            "type": "above-sma50-sma200",
-            "label": "多头排列"
           }
         ]
       },
@@ -701,13 +618,13 @@
         "pct5Day": 0.036146110873943586,
         "pct52WeekHigh": -2.1257367387033415,
         "pct52WeekLow": 4.276295133437989,
-        "sma20": 100.40280036926269,
-        "sma50": 100.55392044067383,
-        "sma200": 99.19013023376465,
-        "rsi14": 38.64636778391349,
-        "macd": -0.26250296197775924,
-        "macdSignal": -0.1919163537364365,
-        "macdHistogram": -0.07058660824132273,
+        "sma20": 100.40450019836426,
+        "sma50": 100.55460037231445,
+        "sma200": 99.1903002166748,
+        "rsi14": 39.08364953770863,
+        "macd": -0.2597909840210946,
+        "macdSignal": -0.19137395826850925,
+        "macdHistogram": -0.06841702575258532,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -725,13 +642,13 @@
       "timestamp": "2026-08-15T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2256979376782.376,
-      "total24hVolumeUsd": 46757729009.44034,
-      "marketCapChangePct24h": -0.11266303381229405,
-      "btcDominance": 56.111231836221144,
-      "ethDominance": 10.07186964327717,
+      "totalMarketCapUsd": 2253893386670.957,
+      "total24hVolumeUsd": 46690561135.933426,
+      "marketCapChangePct24h": -0.2755000910275754,
+      "btcDominance": 56.09804194582889,
+      "ethDominance": 10.070410194504936,
       "activeCryptocurrencies": 18412
     },
-    "generated_at": "2026-08-15T03:22:18.045Z"
+    "generated_at": "2026-08-15T04:08:22.984Z"
   }
 }
