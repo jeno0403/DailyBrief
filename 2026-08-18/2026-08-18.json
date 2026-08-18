@@ -1,129 +1,115 @@
 {
-  "hero_headline": "英伟达千亿投资AI基建，台湾国防预算首破万亿",
-  "daily_overview": "今日全球局势在科技基建与地缘格局上迎来重要调整。科技领域，英伟达携手OpenAI开启千亿美元级别的算力基建布局，而Stripe以70亿美元高价收购OpenRouter，再次证实了AI分发网络的核心价值。财经方面，美加贸易谈判进入关税减免的最后攻坚期，必和必拓受AI及绿色科技需求推动，铜业务利润首次超越铁矿石。政治地缘上，台湾国防预算首次突破万亿新台币，特朗普要求削减美韩军演规模的举动则让亚太同盟关系再添变数。",
+  "hero_headline": "harry0703/MoneyPrinterTurbo",
+  "daily_overview": "本次报告因 LLM 摘要步骤未返回可用结果，已启用确定性兜底生成。新闻源抓取成功，因此页面仍保留今日候选内容：科技 25 条、财经 20 条、时政 15 条。",
   "tech_briefs": [
     {
-      "title": "英伟达承诺提供千亿美元算力基建支持",
-      "url": "https://www.ft.com/content/82a4b183-7201-4789-95b7-e39e81c827bc?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "英伟达承诺向OpenAI在俄亥俄州规划的8吉瓦数据中心提供1000亿美元的算力与基础设施支持，并向软银旗下的能源公司注资15亿美元，全面加速AI物理基础设施建设。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "Stripe斥资70亿美元收购OpenRouter",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "source": "Latent Space",
-      "summary": "支付巨头Stripe宣布以70亿美元收购AI模型路由与分发平台OpenRouter。此举突显了无需GPU和自主智能体，仅凭高效的基础设施与分发渠道也能创造巨大商业价值。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "谷歌推出Gemini 3.7 Flash并集成表格画布",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source": "DeepMind Blog",
-      "summary": "谷歌正式推出轻量高效的Gemini 3.7 Flash模型，并与Google Sheets深度集成。用户无需编程即可将繁琐的电子表格一键转换为交互式微型应用。（多家报道）",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "source": "GitHub Trending",
+      "summary": "视频创作者与营销人员的快捷视频生成工具。利用 AI 大模型和自动化工作流，用户只需输入主题或关键词，即可一键合成包含配音、字幕和素材的高清短视频，大幅降低短视频制作门槛与时间成本。",
       "importance": 8
     },
     {
-      "title": "短视频生成工具MoneyPrinterTurbo开源",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "source": "GitHub Trending",
-      "summary": "这是一个基于AI大模型和自动化工作流的开源视频生成工具。它解决了内容创作者制作视频耗时的问题，利用多模态AI技术，用户只需输入主题或关键词即可一键生成带有配音、字幕和高清素材的短视频。",
+      "title": "中转站真赚麻了",
+      "url": "https://www.v2ex.com/t/1235241",
+      "source": "V2EX",
+      "summary": "21 回复 · 程序员 节点",
       "importance": 7
     },
     {
-      "title": "开源AI渗透测试工具Strix发布",
-      "url": "https://github.com/usestrix/strix",
-      "source": "GitHub Trending",
-      "summary": "该项目是一个开源的AI网络安全渗透测试工具。它利用自主Agent技术模拟黑客攻击，帮助开发者自动发现并修复应用系统中的安全漏洞，极大降低了安全测试的门槛与成本。",
-      "importance": 7
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "source": "OpenAI News",
+      "summary": "OpenAI 发布文章，探讨人工智能如何重塑网络安全领域的攻防博弈。文章分享了 OpenAI 自身如何加强安全防御体系，并对其他安全团队现阶段的防御应对提出了具体建议。",
+      "importance": 6
+    },
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "DeepMind Blog",
+      "summary": "Introducing Gemini 3.7 Flash",
+      "importance": 5
+    },
+    {
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face 博客探讨了 GPU 管理优化。研究指出，在完全相同的集群配置中，仅通过调整任务的执行顺序，就成功将 GPU 的利用率提升了 33 个百分点。",
+      "importance": 4
     }
   ],
   "finance_briefs": [
     {
-      "title": "美加贸易谈判进入关键期以规避关税冲击",
-      "url": "https://www.nytimes.com/2026/08/18/world/canada/trade-tariffs-trump-carney.html",
-      "source": "NYT World",
-      "summary": "随着特朗普政府设定的关税最后期限逼近，美加两国正进行密集谈判。加拿大政府正极力向国内兜售可能做出的让步，以避免新的关税对该国经济造成严重冲击。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "必和必拓铜业务利润首次超越铁矿石",
-      "url": "https://www.ft.com/content/e432e2a8-70ff-4181-9b38-b7b180d6bb34?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "受数据中心和能源网络建设引发的红利推动，必和必拓年利润飙升至330亿美元，铜业务利润首次超越铁矿石。与此同时，中国制造业需求仍对铁矿石提供稳定支撑。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "中国企业7月结汇放缓至八个月新低",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/chinese-companies-slow-fx-sales-in-july-as-yuan-support-fades",
+      "title": "This China Firm Runs a School Teaching Robots Human Tasks",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-18/this-china-firm-runs-schools-teaching-robots-human-tasks-video",
       "source": "Bloomberg Markets",
-      "summary": "数据显示，中国企业在7月份的净结汇，即卖出外汇买入人民币，降至八个月来的最低水平，这表明此前支撑人民币汇率走强的一项关键资金流动正在逐步减弱。",
+      "summary": "中国机器人公司睿尔曼智能「RealMan Robotics」开办了一所培训学校，专门教授机器人执行人类日常任务。该公司海外解决方案总监 Kenneth Ren 在彭博电视节目中对该业务进行了介绍。",
+      "importance": 8
+    },
+    {
+      "title": "Mark Walter’s empire of assets and liabilities",
+      "url": "https://www.ft.com/content/ba3782d6-709b-472c-aa02-e0ffb1c89d87?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "亿万富翁马克·沃尔特「Mark Walter」旗下的保险公司近日深陷丑闻泥潭，使其资产与负债帝国受到严格审视。这一事件已引起整个私人资本和私募股权行业的警惕。",
       "importance": 7
     },
     {
-      "title": "法拉利首款纯电超跑以破纪录4000万美元拍卖",
-      "url": "https://www.ft.com/content/3cef717f-c231-420f-8405-0b2f9c416914?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "尽管该款纯电车型「Luce」在外观设计上面临部分市场舆论的质疑，但其首台量产版仍在拍卖会上以创纪录的4000万美元价格成交，刷新了全新车型的拍卖纪录。",
-      "importance": 7
+      "title": "US-Canada trade talks 'intense' as new tariff deadline looms",
+      "url": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "Mark Carney will need to sell Canadians on any concessions made to the US as negotiators scramble to reach a deal to avoid Trump’s latest tariffs.",
+      "importance": 6
+    },
+    {
+      "title": "The world’s most influential economist is oddly unconvincing",
+      "url": "https://www.economist.com/finance-and-economics/2026/08/17/the-worlds-most-influential-economist-is-oddly-unconvincing",
+      "source": "The Economist Finance",
+      "summary": "Daron Acemoglu is revered. Why?",
+      "importance": 5
+    },
+    {
+      "title": "Bond Rout Sends Long-Term Borrowing Costs to Highest in Decades",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/bond-rout-sends-long-term-borrowing-costs-to-highest-in-decades",
+      "source": "Bloomberg Markets",
+      "summary": "全球债券市场遭遇抛售，导致长期借贷成本飙升至数十年来的最高水平。长期国债成为投资者担忧通胀和人工智能繁荣债务成本的焦点，多国政府正为此承担高昂的融资代价。",
+      "importance": 4
     }
   ],
   "politics_briefs": [
     {
-      "title": "台湾2027年国防预算首破万亿新台币",
-      "url": "https://www.dw.com/zh/应对中国军事施压-台湾国防预算首破万亿/a-78401596?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "面对中国军事施压，台湾总统赖清德宣布将提出创纪录的2027年国防预算，总额首次突破一万亿新台币大关，同时政府还计划向全体民众普发现金红利。",
-      "importance": 9
-    },
-    {
-      "title": "特朗普下令削减美韩联合军演规模",
-      "url": "https://thediplomat.com/2026/08/trumps-exercise-cut-risks-turning-south-korea-us-alliance-readiness-into-a-bargaining-chip/",
-      "source": "The Diplomat",
-      "summary": "特朗普以其与金正恩的「友好关系」为由，下令大幅削减美韩「乙支自由护盾」联合军事演习。此举引发了外界关于美韩同盟防卫能力被用作地缘政治筹码的担忧。（多家报道）",
+      "title": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
+      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "在说唱歌手图派克·夏库尔谋杀案的庭审中，一名警官作证称，图派克在身中数枪后拒绝与警方合作，并对一名警官说「我们会解决它的」。证人形容枪击当晚现场「乱成了一团」。",
       "importance": 8
     },
     {
-      "title": "俄罗斯国行首席经济学家因警示言论被解职",
-      "url": "https://www.dw.com/zh/警告莫斯科“输给中美、甚至输给乌克兰”-俄银行首席经济学家遭解雇/a-78400623?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "俄罗斯国有发展银行首席经济学家因在演讲中直言俄罗斯「打不赢消耗战」、正落后于中美以及乌战导致俄罗斯经济受损可能引发社会危机，已被解雇。",
-      "importance": 8
+      "title": "Australia politics live: Coalition MPs cross floor in protest against gambling bill; Greens leader says Labor ‘should hang their heads in shame’",
+      "url": "https://www.theguardian.com/australia-news/live/2026/aug/18/australia-politics-live-labor-coalition-gambling-advertising-ai-charlton-datacentres-question-time-anthony-albanese-angus-taylor-one-nation-pauline-hanson-ntwnfb",
+      "source": "The Guardian",
+      "summary": "澳大利亚政坛因博彩法案引发争议。联盟党部分议员跨越党派界线投票以示抗议，绿党领袖批评工党「应该感到羞耻」。工党政府已同意与联盟党达成的十多项修正案，财政部长吉姆·查默斯称这些修改「非常重大」。",
+      "importance": 7
+    },
+    {
+      "title": "After the Earthquakes",
+      "url": "https://www.nytimes.com/2026/08/17/world/earthquake-response-japan-venezuela.html",
+      "source": "NYT World",
+      "summary": "委内瑞拉和日本在今年夏天均遭遇了重大地震。尽管两国在应对灾害时采取了截然不同的应对措施，但导致这种差异的原因并不仅仅在于资金实力的差距，还涉及体制与管理层面的不同。",
+      "importance": 6
     }
   ],
-  "editor_note": "AI竞争已从算法模型演变为数千亿美元的物理算力基建博弈。同时，地缘摩擦引发的经贸不确定性正在深度重塑全球产业链。",
+  "editor_note": "兜底模式用于应对上游模型或 API 的临时失败，保证每日归档不断更。",
   "keywords": [
-    "AI基建",
-    "Stripe收购",
-    "美加关税",
-    "必和必拓",
-    "台湾军费",
-    "美韩军演",
-    "数据中心"
+    "兜底",
+    "每日简报",
+    "新闻源",
+    "归档",
+    "LLM"
   ],
   "trading": {
-    "market_overview": "当前全球市场技术面分化。美股维持偏强格局，SPY 与 QQQ 均线呈多头排列，但 MSFT 等权重股 RSI 达 70.9 步入超买。中概股面临技术回调压力，京东（JD）等呈现空头排列及 MACD 死叉。商品方面，WTI 原油均线多头排列且 MACD 金叉，黄金期货（GC=F）于 4446.4 高位震荡，RSI 达 68.3。加密市场整体走势中性，24小时总市值微增 0.41% 至 2.28T USD，BTC 主导率 56.5% 且 ETH 占 10%，恐慌贪婪指数为 41 处于「恐慌」状态。比特币（BTC-USD）价格处于 20日与 50日均线上方，但受阻于 200日均线，多空力量较为均衡。",
-    "watchlist": [
-      {
-        "symbol": "SPY",
-        "display_name": "标普500ETF (SPY)",
-        "stance": "偏上行",
-        "rationale": "价格收于 772.67，维持在 SMA20 (756.20) 与 SMA50 (748.93) 上方的多头排列形态，接近 52 周高点。RSI14 读数 65.70，处于多头动量区间。MACD 指标数值为 8.5146，高于信号线 6.2567，维持红柱扩张状态，整体表现偏上行。"
-      },
-      {
-        "symbol": "JD",
-        "display_name": "京东 (JD)",
-        "stance": "偏下行",
-        "rationale": "收盘价 28.50 跌破 20日、50日及200日均线，技术面呈空头排列。RSI14 读数跌至 37.80 的偏弱区间。MACD 出现死叉，DIF 线 0.4467 低于 DEA 线 0.9102，近 5 日累计下跌达 13.56%，动量指标持续转弱，技术状态偏下行。"
-      },
-      {
-        "symbol": "BTC-USD",
-        "display_name": "比特币 (BTC-USD)",
-        "stance": "中性",
-        "rationale": "价格收于 64076.11，处于 SMA20 (63793.03) 与 SMA50 (63659.38) 上方，但受压于 SMA200 (69136.93)。RSI14 读数为 51.80，多空力量趋于中性平衡。MACD 为 -188.9528 并低于信号线，整体呈横盘震荡技术特征。"
-      }
-    ],
-    "risk_caveat": "本报告内容仅基于历史数据与客观技术指标进行状态呈现，过去走势不代表未来表现。所有数据与技术走势解读仅供技术指标解读参考，不构成任何投资建议。",
+    "market_overview": "",
+    "watchlist": [],
+    "risk_caveat": "以上内容基于公开行情数据的技术指标计算与文本摘要，不构成任何投资建议。过去走势不代表未来表现，市场风险自负。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -356,18 +342,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64076.11,
-        "pct1Day": 2.001726572179654,
-        "pct5Day": 1.062540297059527,
-        "pct52WeekHigh": -49.22576074261675,
-        "pct52WeekLow": 10.95859535068421,
-        "sma20": 63793.02578125,
-        "sma50": 63659.3821875,
-        "sma200": 69136.9328515625,
-        "rsi14": 51.82095888421296,
-        "macd": -188.95279683586705,
-        "macdSignal": -105.14910556513829,
-        "macdHistogram": -83.80369127072876,
+        "currentPrice": 64136.79,
+        "pct1Day": 2.098322085989713,
+        "pct5Day": 1.1582464025834984,
+        "pct52WeekHigh": -49.17767759839751,
+        "pct52WeekLow": 11.063673008580102,
+        "sma20": 63796.059765625,
+        "sma50": 63660.59578125,
+        "sma200": 69137.23625,
+        "rsi14": 52.21937920780717,
+        "macd": -184.1122519640703,
+        "macdSignal": -104.18099659077893,
+        "macdHistogram": -79.93125537329138,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -378,18 +364,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1892.29,
-        "pct1Day": 0.9790589629922214,
-        "pct5Day": 0.7536726678739344,
-        "pct52WeekHigh": -61.800726845794884,
-        "pct52WeekLow": 25.60788850649553,
-        "sma20": 1886.3734252929687,
-        "sma50": 1842.657724609375,
-        "sma200": 2008.0655322265625,
-        "rsi14": 53.28983668566336,
-        "macd": 7.5884197252489685,
-        "macdSignal": 12.166172952320679,
-        "macdHistogram": -4.57775322707171,
+        "currentPrice": 1895.06,
+        "pct1Day": 1.1268756260446533,
+        "pct5Day": 0.9011594026186136,
+        "pct52WeekHigh": -61.74480941948224,
+        "pct52WeekLow": 25.79175770791973,
+        "sma20": 1886.5119262695312,
+        "sma50": 1842.713125,
+        "sma200": 2008.0793823242188,
+        "rsi14": 53.793192254528414,
+        "macd": 7.809389944266059,
+        "macdSignal": 12.210366996124097,
+        "macdHistogram": -4.400977051858039,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -400,18 +386,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 75.55,
-        "pct1Day": 1.3563142107382395,
-        "pct5Day": 0.03245287509380359,
-        "pct52WeekHigh": -70.16309393906003,
-        "pct52WeekLow": 25.05230513358333,
-        "sma20": 74.51290397644043,
-        "sma50": 76.1335092163086,
-        "sma200": 81.5697703552246,
-        "rsi14": 52.004803974987716,
-        "macd": 0.08054532419788529,
-        "macdSignal": -0.04559174425820747,
-        "macdHistogram": 0.12613706845609277,
+        "currentPrice": 75.73,
+        "pct1Day": 1.5977984802012914,
+        "pct5Day": 0.2707830076883445,
+        "pct52WeekHigh": -70.09200667114516,
+        "pct52WeekLow": 25.35024576791881,
+        "sma20": 74.52190399169922,
+        "sma50": 76.1371092224121,
+        "sma200": 81.57067035675048,
+        "rsi14": 52.707989371964906,
+        "macd": 0.09490432290135686,
+        "macdSignal": -0.04271994451751316,
+        "macdHistogram": 0.13762426741887002,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -569,18 +555,18 @@
         "group": "commodity-fx",
         "currency": "USD",
         "exchangeName": "NYM",
-        "currentPrice": 85.26,
-        "pct1Day": 0.8994082840236747,
-        "pct5Day": 2.4759652972575505,
-        "pct52WeekHigh": -28.640776699029125,
-        "pct52WeekLow": 55.07457257184433,
-        "sma20": 82.58649940490723,
-        "sma50": 79.2747998046875,
-        "sma200": 77.08289985656738,
-        "rsi14": 56.89099785634683,
-        "macd": 0.7874319930261748,
-        "macdSignal": 0.3735694921966983,
-        "macdHistogram": 0.4138625008294765,
+        "currentPrice": 85.18,
+        "pct1Day": 0.804733727810659,
+        "pct5Day": 2.379811447576804,
+        "pct52WeekHigh": -28.707733511884832,
+        "pct52WeekLow": 54.92906511458714,
+        "sma20": 82.58249931335449,
+        "sma50": 79.2731997680664,
+        "sma200": 77.08249984741211,
+        "rsi14": 56.77278143688879,
+        "macd": 0.7810500805773728,
+        "macdSignal": 0.3722931097069379,
+        "macdHistogram": 0.4087569708704349,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -606,16 +592,20 @@
         "pct5Day": -0.05927923482735629,
         "pct52WeekHigh": -6.223143139245432,
         "pct52WeekLow": 0.1961308727823887,
-        "sma20": 6.7553599834442135,
-        "sma50": 6.769979963302612,
-        "sma200": 6.8857789850234985,
-        "rsi14": 30.010539344398623,
-        "macd": -0.009004606258527836,
-        "macdSignal": -0.008512489316945707,
-        "macdHistogram": -0.000492116941582129,
+        "sma20": 6.756844973564148,
+        "sma50": 6.770433959960937,
+        "sma200": 6.88765798330307,
+        "rsi14": 29.935210431017737,
+        "macd": -0.009142820847472422,
+        "macdSignal": -0.008379889647327634,
+        "macdHistogram": -0.0007629312001447876,
         "trend": "bearish",
-        "rsiState": "normal",
+        "rsiState": "oversold",
         "signals": [
+          {
+            "type": "rsi-oversold",
+            "label": "RSI 超卖"
+          },
           {
             "type": "near-52w-low",
             "label": "接近 52 周低"
@@ -636,17 +626,21 @@
         "pct1Day": 6.596491228070173,
         "pct5Day": -1.7464426745197812,
         "pct52WeekHigh": -56.96883852691218,
-        "pct52WeekLow": 13.527653213751858,
-        "sma20": 16.45849986076355,
-        "sma50": 17.174999923706054,
-        "sma200": 18.521250042915344,
-        "rsi14": 45.1285085062949,
-        "macd": -0.7269407934941583,
-        "macdSignal": -0.5331104634924431,
-        "macdHistogram": -0.19383033000171523,
+        "pct52WeekLow": 0,
+        "sma20": 16.681999921798706,
+        "sma50": 17.125999946594238,
+        "sma200": 18.518500051498414,
+        "rsi14": 44.792219796992455,
+        "macd": -0.7398181660524212,
+        "macdSignal": -0.5214789665389623,
+        "macdHistogram": -0.21833919951345893,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
+          {
+            "type": "near-52w-low",
+            "label": "接近 52 周低"
+          },
           {
             "type": "below-sma50-sma200",
             "label": "空头排列"
@@ -664,23 +658,19 @@
         "pct5Day": 0.5320306210847311,
         "pct52WeekHigh": -0.4845165367600524,
         "pct52WeekLow": 19.68583734481885,
-        "sma20": 4.66639997959137,
-        "sma50": 4.565979976654052,
-        "sma200": 4.316509989500045,
-        "rsi14": 59.784717385127045,
-        "macd": 0.03551943222799281,
-        "macdSignal": 0.03704389356529756,
-        "macdHistogram": -0.0015244613373047514,
-        "trend": "bullish",
+        "sma20": null,
+        "sma50": null,
+        "sma200": null,
+        "rsi14": 52.96031564246677,
+        "macd": null,
+        "macdSignal": null,
+        "macdHistogram": null,
+        "trend": "neutral",
         "rsiState": "normal",
         "signals": [
           {
             "type": "near-52w-high",
             "label": "接近 52 周高"
-          },
-          {
-            "type": "above-sma50-sma200",
-            "label": "多头排列"
           }
         ]
       },
@@ -690,18 +680,18 @@
         "group": "macro",
         "currency": "USD",
         "exchangeName": "NYB",
-        "currentPrice": 99.647,
-        "pct1Day": -0.02307431460601008,
-        "pct5Day": -0.16330784749098531,
-        "pct52WeekHigh": -2.1149312377210134,
-        "pct52WeekLow": 4.287807430664582,
-        "sma20": 100.33735046386718,
-        "sma50": 100.55934036254882,
-        "sma200": 99.19508522033692,
-        "rsi14": 38.76415329233417,
-        "macd": -0.26966737651585504,
-        "macdSignal": -0.2070326426263685,
-        "macdHistogram": -0.06263473388948654,
+        "currentPrice": 99.653,
+        "pct1Day": -0.01705444893908196,
+        "pct5Day": -0.15729642564271012,
+        "pct52WeekHigh": -2.1090373280942942,
+        "pct52WeekLow": 4.294086865515446,
+        "sma20": 100.33765029907227,
+        "sma50": 100.55946029663086,
+        "sma200": 99.19511520385743,
+        "rsi14": 38.8469678862618,
+        "macd": -0.2691890069579017,
+        "macdSignal": -0.20693696871477785,
+        "macdHistogram": -0.062252038243123864,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -719,13 +709,13 @@
       "timestamp": "2026-08-18T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2275127814992.2363,
-      "total24hVolumeUsd": 54004780811.27352,
-      "marketCapChangePct24h": 0.4090469536200622,
-      "btcDominance": 56.54698317023655,
-      "ethDominance": 10.0415890226024,
+      "totalMarketCapUsd": 2276948162680.461,
+      "total24hVolumeUsd": 54155491769.6294,
+      "marketCapChangePct24h": 0.4893850231098072,
+      "btcDominance": 56.556220168082916,
+      "ethDominance": 10.04287024962745,
       "activeCryptocurrencies": 18454
     },
-    "generated_at": "2026-08-18T04:19:33.169Z"
+    "generated_at": "2026-08-18T04:46:42.542Z"
   }
 }
