@@ -1,121 +1,103 @@
 {
-  "hero_headline": "美加关税战全面爆发，全球贸易摩擦剧烈升级",
-  "daily_overview": "今日全球局势聚焦于急剧升温的美加贸易战，美国对加征收50%关税，加拿大随即誓言对等反击，加剧了全球供应链的动荡风险。金融市场中，美债规模突破40万亿美元，高企的借贷成本与即将召开的杰克逊霍尔年会令投资者情绪紧绷。科技领域，AI智能体生态加速演进，OpenAI与Anthropic推出全新桌面级和协作API功能，同时开源社区正大力优化底层架构性能，推动AI向更低成本、高效率的实操场景落地。",
+  "hero_headline": "美加关税战一触即发，美国国债规模破40万亿",
+  "daily_overview": "今日全球政经与科技领域迎来多重重磅信号。政治层面上，美国对加拿大施加巨额关税，加方誓言对等反击，美加贸易战硝烟再起。同时，澳大利亚新法强制科技巨头为新闻付费，凸显监管收紧趋势。财经方面，美国国债规模历史性冲破 40 万亿美元大关，高企的借贷成本令市场承压，而韩国散户则在股市动荡中逆势追逐极高风险产品。科技领域，OpenAI 推出零数据保留机制并开源轻量化 Codex 终端智能体，AI 商业化与安全隐私、大模型性能优化正成为当下行业发展的双轨核心。",
   "tech_briefs": [
     {
-      "title": "谷歌发布Gemini 3.7 Flash轻量模型",
+      "title": "终端运行轻量级编程智能体工具 Codex 开源",
+      "url": "https://github.com/openai/codex",
+      "source": "GitHub Trending",
+      "summary": "该项目是 OpenAI 在 GitHub 开源的轻量级终端编程智能体。它允许开发者直接在命令行交互，通过自然语言生成和执行代码。该工具旨在解决本地轻量化辅助编程的需求，免去了重型 IDE 插件的开销，提升了终端开发效率。",
+      "importance": 9
+    },
+    {
+      "title": "谷歌推出全新轻量级大模型 Gemini 3.7 Flash",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "source": "DeepMind Blog",
-      "summary": "谷歌正式推出最新一代轻量级多模态模型 Gemini 3.7 Flash，在保持高响应速度的同时，进一步提升了长上下文理解和推理性能，面向更广泛的边缘端应用。",
+      "summary": "谷歌 DeepMind 正式推出 Gemini 3.7 Flash 模型，在保持极高推理速度和超低成本的同时，显著提升了多模态理解与逻辑推理能力，进一步优化了实时交互体验。",
       "importance": 8
     },
     {
-      "title": "OpenAI与Anthropic升级智能体平台",
-      "url": "https://news.smol.ai/issues/26-08-20-not-much/",
-      "source": "Smol AI News",
-      "summary": "头部大模型厂商加速智能体竞争。OpenAI和Anthropic分别推出桌面控制功能、协同编辑工具，以及Skills和Files等组合式API，扩展了其AI助理的本地实操能力。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "开源Agent性能优化系统ECC受开发者关注",
-      "url": "https://github.com/affaan-m/ECC",
-      "source": "GitHub Trending",
-      "summary": "该项目是一个专注于优化智能体基座（Agent Harness）性能的开源系统。它通过对Claude Code、Codex等主流开发工具的记忆、安全和执行策略进行重构，解决了复杂AI任务中延迟和高消耗的痛点，显著提高AI编码助手的自主决策效率。",
-      "importance": 7
-    },
-    {
-      "title": "OpenAI对符合条件客户提供零数据保留承诺",
+      "title": "OpenAI 面向企业级 API 提供零数据保留服务",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "source": "OpenAI News",
-      "summary": "OpenAI宣布面向符合特定合规标准的API企业级客户提供「零数据保留」服务，并预览了其「隐私安全处理」技术，旨在不牺牲模型安全性的前提下最大化保障隐私。",
+      "summary": "OpenAI 宣布将为符合条件的企业级 API 客户提供零数据保留服务，并预览了隐私安全处理机制，旨在保护高敏行业的用户隐私，打消企业对训练数据泄露的顾虑。",
       "importance": 8
+    },
+    {
+      "title": "ECC 智能体线束性能优化系统在 GitHub 走红",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "GitHub Trending",
+      "summary": "该项目是一个专为 Claude Code、Cursor 等大模型编程工具设计的智能体性能优化框架。它通过优化系统内部的记忆、本能和安全机制，解决了 AI 编程助手在大上下文下响应慢、推理链断裂的问题，大幅提升了 agent 的工程实用性。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "美国国债总额突破40万亿美元推高借贷成本",
+      "title": "美国国债突破40万亿美元 借贷成本持续攀升",
       "url": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "随着美国国家债务总额历史性突破40万亿美元大关，市场对政府债务规模的担忧挥之不句，导致近期旨在降低利率的努力受阻，美债收益率及借贷成本持续攀升。",
+      "summary": "随着美国国家债务规模正式突破 40 万亿美元大关，经济学家对政府庞大的债务规模深表担忧。市场试图推低利率的努力被证明转瞬即逝，美国政府和企业的借贷成本再度回升。",
       "importance": 9
     },
     {
-      "title": "全球目光聚焦杰克逊霍尔央行年会",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-22/bloomberg-previews-jackson-hole-symposium-video",
-      "source": "Bloomberg Markets",
-      "summary": "备受关注的杰克逊霍尔全球央行年会即将召开，市场焦点目前锁定在美联储主席凯文·马什的首次年会开幕致辞上，寻找未来货币政策路径的最新线索。",
+      "title": "跟踪特朗普关税政策：美国有效关税率达10%",
+      "url": "https://www.economist.com/interactive/trump-tariff-costs-tracker",
+      "source": "The Economist Finance",
+      "summary": "根据最新关税成本追踪数据，随着新一轮贸易壁垒生效，美国当前的全球实际有效关税税率已升至 10.0%，这给全球供应链和美国本土物价带来了持续的通胀压力。",
       "importance": 8
     },
     {
-      "title": "垃圾债券投资者涌入AI数据中心高收益债务",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/juicy-yields-draw-junk-bond-buyers-to-investment-grade-ai-debt",
-      "source": "Bloomberg Markets",
-      "summary": "为筹集数据中心建设所需的数十亿美元资金，科技巨头日益向高风险投资者开放。即使是投资级债务，其丰厚的收益率也吸引了大量垃圾债券买家入局。",
-      "importance": 8
-    },
-    {
-      "title": "欧洲金融科技巨头Klarna估值受德国消费疲软冲击",
+      "title": "欧洲金融科技巨头 Klarna 估值重挫",
       "url": "https://www.ft.com/content/73755e41-8a6d-4fb4-9f4e-5d768450fc54?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "欧洲知名“先买后付”金融科技独角兽Klarna遭遇估值下挫，主要受到其关键市场德国消费者支出持续疲软以及宏观零售环境恶化的直接拖累。",
+      "summary": "瑞典先买后付巨头 Klarna 遭遇股价和估值重挫。分析指出，其暴跌折射出该平台在面对德国等欧洲核心市场消费支出疲软、竞争加剧等宏观压力时的脆弱性。",
+      "importance": 7
+    },
+    {
+      "title": "韩国散户无惧市场暴跌 逆势追捧40%高息产品",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/korean-traders-chase-40-coupons-as-risk-appetite-survives-rout",
+      "source": "Bloomberg Markets",
+      "summary": "尽管近期股市遭遇历史性抛售，但韩国散户投资者的风险偏好依然旺盛。这群极度偏好风险的投资者正蜂拥购买年化收益率高达 40% 的复杂结构化金融产品，试图博取超额回报。",
       "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美加关税冲突爆发加拿大宣布将实施同等反击",
+      "title": "美加贸易战一触即发 加拿大誓言同等反击关税",
       "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "source": "NPR World",
-      "summary": "美国宣布对价值200亿美元的加拿大商品征收50%关税后，加拿大总理卡尼谴责美方挑起贸易战，并宣布将于9月8日起对美实施同等规模的关税反击。（多家报道）",
+      "summary": "美国对价值 200 亿美元的加拿大产品征收 50% 关税后，加拿大总理马克·卡尼宣布将于 9 月 8 日起实施等额关税反击。多位加拿大省长发声支持，美方代表则透露此前和谈条件已被加方拒绝。（多家报道）",
       "importance": 9
     },
     {
-      "title": "澳大利亚通过新法要求科技巨头为新闻内容付费",
+      "title": "澳大利亚通过新法强制科技巨头为新闻付费",
       "url": "https://www.npr.org/2026/08/21/nx-s1-5939814/big-tech-companies-will-have-to-pay-to-publish-australian-news-content-under-new-laws",
       "source": "NPR World",
-      "summary": "澳大利亚通过新立法，强制谷歌、Meta等大型科技平台与当地新闻出版商达成内容授权协议，否则将对其广告收入征收税款，以保障本土媒体利益。",
+      "summary": "澳大利亚通过新法案，要求谷歌和 Meta 等主要科技平台必须与当地新闻出版商达成内容合作协议，否则将对其广告收入征收税款，以此保障新闻行业的生存。",
       "importance": 8
     },
     {
-      "title": "德国外长在乌克兰独立日访问基辅重申支持",
+      "title": "德国外长战时第五次访乌 承诺冬季援助支持",
       "url": "https://www.dw.com/zh/第五个战时独立日：德国外长访问乌克兰表达支持/a-78469463?maca=chi-rss-chi-all-1127-rdf",
       "source": "DW 中文",
-      "summary": "在乌克兰迎来战时第五个独立日之际，德国外交部长再次访问基辅，强烈谴责俄罗斯对乌克兰升级的空袭，并承诺将协助乌方做好冬季能源保障工作。",
+      "summary": "在乌克兰迎来第五个战时独立日之际，德国外长访问基辅，强烈谴责俄罗斯升级空袭，并承诺德国将全力帮助乌克兰做好应对冬季严寒的各项基础设施保障。",
       "importance": 7
     }
   ],
-  "editor_note": "美加贸易摩擦升级正为复苏中的全球经济蒙上阴影；而AI向更低成本、高自主性智能体方向的演进，已成行业共识。",
+  "editor_note": "美加贸易摩擦升级与美债高企为全球经济蒙上阴影；而在技术端，AI 正加速向轻量化、高隐私性及应用端生态纵深发展。",
   "keywords": [
-    "美加贸易战",
-    "关税反击",
+    "关税贸易战",
     "美国国债",
-    "AI智能体",
+    "OpenAI Codex",
     "Gemini 3.7",
-    "杰克逊霍尔年会"
+    "零数据保留",
+    "金融科技",
+    "新闻版权法"
   ],
   "trading": {
-    "market_overview": "当前全球市场各资产类别呈现分化走势。美股市场整体维持在高位整理，SPY 与 QQQ 分别收于 765.72 和 713.44，虽然日线级别出现 MACD 死叉，但长周期均线仍提供支撑。加密货币市场动能强劲，总市值达 2.60T 美元，24小时虽回调 5.62% 且 BTC 主导率达 59.4%，但在恐慌贪婪指数 66（贪婪）的背景下，BTC-USD 及 ETH-USD 的 RSI 指标均步入 76 以上的超买区间。中概股整体表现疲软，阿里巴巴（BABA）大跌 8.57% 拖累板块，技术形态走弱。商品外汇方面分化明显，黄金期货（GC=F）受资金避险推动 RSI14 升至 75.6 超买区，而美元指数（DXY）则在 98.84 附近，RSI14 降至 29.7 步入超卖状态，整体呈现宽幅震荡的格局。",
-    "watchlist": [
-      {
-        "symbol": "BTC-USD",
-        "display_name": "比特币 (BTC-USD)",
-        "stance": "偏上行",
-        "rationale": "BTC-USD 当前价格为 76818.62，5日涨幅达 19.09%。技术指标显示 MACD 触发金叉（2493.9026 对比信号线 936.3357），日线均线呈现支撑状态。虽然 RSI14 达到 79.1 提示超买，但上行动量依然显著，整体技术面呈偏上行形态。"
-      },
-      {
-        "symbol": "BABA",
-        "display_name": "阿里巴巴 (BABA)",
-        "stance": "偏下行",
-        "rationale": "阿里巴巴 (BABA) 最新收盘价为 119.34，单日跌幅达 8.57%。技术指标上，MACD 在高位死叉（2.7440 低于信号线 3.3761），均线系统承压，RSI14 回落至 46 偏弱区间，整体短期技术走势呈现偏下行特征。"
-      },
-      {
-        "symbol": "QQQ",
-        "display_name": "纳斯达克 100 ETF (QQQ)",
-        "stance": "中性",
-        "rationale": "QQQ 当前收于 713.44，5日跌幅为 2.41%。虽然指标显示 MACD 出现死叉（3.3567 略低于信号线 3.3792），但其 RSI14 处于 50.1 的多空分界点，且价格仍处于 SMA200（652.78）之上。中短期趋势暂陷胶着，技术形态评估为中性。"
-      }
-    ],
-    "risk_caveat": "本报告仅供技术指标解读参考，不构成任何投资建议。请注意，过去走势不代表未来表现。市场有风险，交易需谨慎，投资者应结合自身风险承受能力独立决策。",
+    "market_overview": "",
+    "watchlist": [],
+    "risk_caveat": "以上内容基于公开行情数据的技术指标计算与文本摘要，不构成任何投资建议。过去走势不代表未来表现，市场风险自负。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -350,18 +332,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 76818.62,
-        "pct1Day": -1.9359977915416424,
-        "pct5Day": 19.087089000152048,
-        "pct52WeekHigh": -39.128530254068075,
-        "pct52WeekLow": 33.02440132489279,
-        "sma20": 66036.57890625,
-        "sma50": 64856.044375,
-        "sma200": 68979.51822265625,
-        "rsi14": 79.06952472743866,
-        "macd": 2493.9025624337664,
-        "macdSignal": 936.335699288277,
-        "macdHistogram": 1557.5668631454894,
+        "currentPrice": 76587.19,
+        "pct1Day": -2.231433351710555,
+        "pct5Day": 18.7283175850016,
+        "pct52WeekHigh": -39.31191657685415,
+        "pct52WeekLow": 32.623641233151766,
+        "sma20": 66025.007421875,
+        "sma50": 64851.41578125,
+        "sma200": 68978.36107421874,
+        "rsi14": 78.10850219086612,
+        "macd": 2475.440934940896,
+        "macdSignal": 932.643373789703,
+        "macdHistogram": 1542.7975611511931,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -382,18 +364,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2406.04,
-        "pct1Day": -4.343121353709562,
-        "pct5Day": 25.825609074125616,
-        "pct52WeekHigh": -51.42976014250264,
-        "pct52WeekLow": 59.70998317497239,
-        "sma20": 1987.541357421875,
-        "sma50": 1906.4996801757814,
-        "sma200": 2005.3064764404296,
-        "rsi14": 76.38807544968432,
-        "macd": 119.77800888738193,
-        "macdSignal": 57.57717202991969,
-        "macdHistogram": 62.20083685746224,
+        "currentPrice": 2371.85,
+        "pct1Day": -5.702412421570727,
+        "pct5Day": 24.037618195235673,
+        "pct52WeekHigh": -52.119946714931956,
+        "pct52WeekLow": 57.44049292345858,
+        "sma20": 1985.8318603515625,
+        "sma50": 1905.8158813476562,
+        "sma200": 2005.1355267333984,
+        "rsi14": 73.2940697009747,
+        "macd": 117.05060615412026,
+        "macdSignal": 57.03169148326735,
+        "macdHistogram": 60.01891467085291,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -414,18 +396,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 93.33,
-        "pct1Day": -0.345539513852379,
-        "pct5Day": 22.893072943210267,
-        "pct52WeekHigh": -63.14125158613467,
-        "pct52WeekLow": 54.48221890294285,
-        "sma20": 78.07541961669922,
-        "sma50": 77.10635787963867,
-        "sma200": 81.12842052459717,
-        "rsi14": 81.92284531180152,
-        "macd": 3.6248543212697797,
-        "macdSignal": 1.5208813139609196,
-        "macdHistogram": 2.10397300730886,
+        "currentPrice": 92.22,
+        "pct1Day": -1.5307581052980428,
+        "pct5Day": 21.431470982779928,
+        "pct52WeekHigh": -63.57962307160976,
+        "pct52WeekLow": 52.64491832454077,
+        "sma20": 78.01991958618164,
+        "sma50": 77.08415786743164,
+        "sma200": 81.12287052154541,
+        "rsi14": 78.29837724276229,
+        "macd": 3.5363072640337663,
+        "macdSignal": 1.503171902513717,
+        "macdHistogram": 2.033135361520049,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -720,13 +702,13 @@
       "timestamp": "2026-08-23T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2602291683784.884,
-      "total24hVolumeUsd": 117630987295.77838,
-      "marketCapChangePct24h": -5.622111246347434,
-      "btcDominance": 59.35031125867683,
-      "ethDominance": 11.183727469617628,
+      "totalMarketCapUsd": 2587153762137.097,
+      "total24hVolumeUsd": 114058161532.65611,
+      "marketCapChangePct24h": -5.887358944754972,
+      "btcDominance": 59.408550386688816,
+      "ethDominance": 11.174164871804317,
       "activeCryptocurrencies": 18619
     },
-    "generated_at": "2026-08-23T04:20:17.508Z"
+    "generated_at": "2026-08-23T04:49:07.838Z"
   }
 }
